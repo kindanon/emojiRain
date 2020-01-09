@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+
+<!-- styles -->
+<style>
+body{background-color: rgb(33, 33, 33);overflow: hidden;}
+
+#emojirain{
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(33, 33, 33);
+	display: block;
+}
+
+@keyframes falling{
+	from {top:0px;} 
+	to{top:100vh;}
+}
+</style>
+<!-- /styles -->
+</head>
+
+<body>
+<div id="emojirain"></div>
+<!-- scripts -->    
+<script>
+window.onload = function(){
+	var inter = setInterval(function(){
+		var speed = 1 + (Math.random() * 4);
+		var location = Math.random() * document.documentElement.clientWidth;
+		var spin = Math.random() * 360;
+		var size = Math.random() * 5;
+		
+		cssString = 'position: absolute;';
+		cssString+= 'width: '+size+'rem; height: '+size+'rem;';
+		cssString+= 'transform:' ;
+			cssString+= 'translate('+location+'px,'+0+'px)';
+			cssString+= 'rotate('+spin+'deg)';
+		cssString+= ';';
+		cssString+= 'animation: falling '+speed+'s linear;';
+
+		var emojirain = document.getElementById("emojirain");
+		var div = document.createElement("div");
+		
+		div.innerHTML = String.fromCodePoint(0x1F354);
+		div.style.cssText = cssString;
+		emojirain.appendChild(div);
+
+		setTimeout(function() {
+    		emojirain.removeChild(div);
+		}, (speed*1000));
+
+	},50);
+
+
+};
+</script>
+<!-- /scripts -->    
+</body>
