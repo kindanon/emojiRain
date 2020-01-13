@@ -1,12 +1,111 @@
 ALL WINDOWS 10 EMOJIS AS OF 20/01/10 (yy/mm/dd)
-TAKEN FROM WIKI USING CHART -> SEQUENCE -> MODIFIERS
+TAKEN FROM https://en.wikipedia.org/wiki/Unicode_block
+USING BLOCK -> CHART -> SEQUENCE -> MODIFIERS
 REMOVED ALL UNTEXTURED & BASE CODE POINT (ugly) ONES
++ THE MODIFIERS THAT DONT WORK
+
+Basic Latin
+---------- SEQUENCE
+#️⃣*️⃣0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣
+
+Miscellaneous Technical
+---------- CHART
+⏩⏪⏫⏬
+⏰⏳
+---------- SEQUENCE
+⌨️⏏️⏭️
+⏮️⏯️⏱️⏲️
+⏸️⏹️⏺️
+
+Geometric Shapes
+---------- CHART
+▶️◀️
 
 Miscellaneous Symbols
-EMPTY YOU(I) NEED TO FILL THIS
+---------- CHART
+☔☕☝
+♈♉♊♋♌♍♎♏
+♐♑♒♓
+♿
+⚓
+⚡
+⚪⚫
+⚽⚾
+⛄⛅⛎
+⛔
+⛪
+⛲⛳⛵⛷⛸⛹⛺⛽
+---------- SEQUENCE
+☀️☁️☂️☃️☄️☎️☑️☘️☠️
+☢️☣️☦️☪️☮️☯️☸️☹️
+♟️
+♨️♻️♾️⚒️⚔️⚕️
+⚖️⚗️⚙️⚛️⚜️⚠️⚰️⚱️
+⛈️⛏️⛑️⛓️⛩️⛰️⛱️
+⛴️⛷️⛸️
 
 Dingbat
-EMPTY YOU(I) NEED TO FILL THIS
+---------- CHART
+✅✊✋✌✍
+✨
+❌❎
+❓❔❕❗
+➕➖➗
+➰➿
+---------- SEQUENCE
+✂️✈️✏️✒️✔️✖️✝️
+✡️✳️✴️❄️❇️❣️❤️➡️
+---------- MODIFIERS
+✊🏻✋🏻
+✊🏼✋🏼
+✊🏽✋🏽
+✊🏾✋🏾
+✊🏿✋🏿
+
+Miscellaneous Symbols and Arrows
+---------- CHART
+⬛⬜
+⭐⭕
+---------- SEQUENCE
+⬅️⬆️⬇️⬛️⬜️
+
+㊗️	㊙️
+
+CJK Symbols and Punctuation
+---------- CHART
+〓
+---------- SEQUENCE
+〰️	〽️
+
+Enclosed CJK Letters and Months
+---------- SEQUENCE
+㊗️㊙️
+
+Mahjong Tiles
+---------- CHART
+🀀🀁🀂🀃🀄🀅🀆🀇🀈🀉🀊🀋🀌🀍🀎🀏
+🀐🀑🀒🀓🀔🀕🀖🀗🀘🀙🀚🀛🀜🀝🀞🀟
+🀠🀡🀢🀣🀤🀥🀦🀧🀨🀩🀪🀫
+
+Playing Cards
+---------- CHART
+🃏
+
+Enclosed Alphanumeric Supplement
+---------- CHART
+🅰🅱🅾🅿
+🆎
+🆑🆒🆓🆔🆕🆖🆗🆘🆙🆚
+
+Enclosed Ideographic Supplement
+---------- CHART
+🈁
+🈚
+🈯
+🈲🈳🈴🈵🈶🈸🈹🈺
+🉐🉑
+---------- SEQUENCE
+🈂️🈷️
 
 Miscellaneous Symbols and Pictographs
 ---------- CHART
@@ -125,11 +224,11 @@ Supplemental Symbols and Pictographs
 ---------- CHART
 🤐🤑🤒🤓🤔🤕🤖🤗🤘🤙🤚🤛🤜🤝🤞🤟
 🤠🤡🤢🤣🤤🤥🤦🤧🤨🤩🤪🤫🤬🤭🤮🤯
-🤰🤱🤲🤳🤴🤵🤶🤷🤸🤹🤺🤻🤼🤽🤾🤿
-🥀🥁🥂🥃🥄🥅🥆🥇🥈🥉🥊🥋🥌🥍🥎🥏
+🤰🤱🤲🤳🤴🤵🤶🤷🤸🤹🤺🤻🤼🤽🤾
+🥀🥁🥂🥃🥄🥅🥇🥈🥉🥊🥋🥌🥍🥎🥏
 🥐🥑🥒🥓🥔🥕🥖🥗🥘🥙🥚🥛🥜🥝🥞🥟
 🥠🥡🥢🥣🥤🥥🥦🥧🥨🥩🥪🥫🥬🥭🥮🥯
-🥰🥳🥴🥵🥶🥺🥻🥼🥽🥾🥿
+🥰🥳🥴🥵🥶🥺🥼🥽🥾🥿
 🦀🦁🦂🦃🦄🦅🦆🦇🦈🦉🦊🦋🦌🦍🦎🦏
 🦐🦑🦒🦓🦔🦕🦖🦗🦘🦙🦚🦛🦜🦝🦞🦟
 🦠🦡🦢
