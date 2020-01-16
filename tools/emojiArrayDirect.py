@@ -3,6 +3,8 @@ import operator
 import re
 import emoji
 
+#NOT WORKING DONT BOTHER
+
 emojis = open("winEmojisMin.txt","r+", encoding="utf-16").read()
 
 output = open("output.txt","w",encoding="utf-16")
